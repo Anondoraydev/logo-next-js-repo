@@ -1,13 +1,15 @@
-
 import Banner from '@/app/(conponents)/Banner';
-import React from 'react';
+import ContactComponent from '../portfolio/page'; 
+import AboutComponent from '../services/page'; 
 
 const page = () => {
-    return (
-        <div >
-          <Banner/>
-        </div>
-    );
+  return (
+    <div >
+      <Banner />
+      <AboutComponent />
+      <ContactComponent />
+    </div>
+  );
 };
 
 export default page;
