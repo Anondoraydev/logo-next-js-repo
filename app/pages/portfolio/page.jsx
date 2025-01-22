@@ -1,11 +1,9 @@
-
-import Banner from '@/app/(conponents)/Banner';
 import React from 'react';
 
 const page = () => {
     return (
-        <div >
-          <Banner/>
+        <div>
+            <h2>This is portfolio</h2>
         </div>
     );
 };
