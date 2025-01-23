@@ -2,8 +2,8 @@ import React from 'react';
 
 const Page = () => {
     return (
-        <div className="max-w-7xl mx-auto mt-20">
-            <div className="flex justify-around text-white p-8">
+        <div className="max-w-7xl mx-auto mt-20 px-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-white p-8">
                 {/* Figma */}
                 <div className="flex flex-col items-center">
                     <div className="relative w-20 h-20">
