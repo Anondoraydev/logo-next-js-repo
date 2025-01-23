@@ -5,7 +5,7 @@ import man from '../../public/image/man.png'
 import { FaInstagram, FaLinkedin, FaFacebook, FaBehanceSquare } from "react-icons/fa";
 const Banner = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto '>
             <div className='flex'>
                 <div className='w-1/2 pt-[140px]'>
                     <p className='text-[#707070] font-semibold text-2xl'>Hi I am</p>
@@ -21,18 +21,18 @@ const Banner = () => {
                         <button className='hover:bg-[#FD6F00] rounded-md text-[#959595] border border-solid-2 hover:text-white py-1 px-6 text-[20px] font-bold'>Hire Me</button>
                         <button className='hover:bg-[#FD6F00] rounded-md text-[#959595] border border-solid-2 hover:text-white py-1 px-6 text-[20px] font-bold'>Downlead CV </button>
                     </div>
-                    <div class="flex justify-around items-center bg-black text-white p-6 rounded-lg shadow-md w-[470px]">
-                        <div class="text-center">
-                            <p class="text-2xl font-bold text-orange-500">5+</p>
-                            <p class="text-sm">Experiences</p>
+                    <div className="flex justify-around items-center bg-black text-white p-10 rounded-lg shadow-md w-[470px]">
+                        <div className="text-center">
+                            <p className="text-3xl font-bold text-orange-500">5+</p>
+                            <p className="text-sm">Experiences</p>
                         </div>
-                        <div class="text-center border-l border-gray-600 px-4">
-                            <p class="text-2xl font-bold text-orange-500">20+</p>
-                            <p class="text-sm">Project done</p>
+                        <div className="text-center border-l border-gray-600 px-4">
+                            <p className="text-3xl font-bold text-orange-500">20+</p>
+                            <p className="text-sm">Project done</p>
                         </div>
-                        <div class="text-center border-l border-gray-600 px-4">
-                            <p class="text-2xl font-bold text-orange-500">80+</p>
-                            <p class="text-sm">Happy Clients</p>
+                        <div className="text-center border-l border-gray-600 px-4">
+                            <p className="text-3xl font-bold text-orange-500">80+</p>
+                            <p className="text-sm">Happy Clients</p>
                         </div>
                     </div>
 

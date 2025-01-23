@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link';
-import { usePathname } from 'next/navigation'; 
+import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import Logo from '../../public/image/logo.png'
 
@@ -81,13 +81,13 @@ const Header = () => {
             {navLink}
           </ul>
         </div>
-        <Image src={Logo} alt='Logo'/>
+        <Image src={Logo} alt='Logo' />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLink}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <button className='bg-[#FD6F00] rounded-md text-[#FFFF] py-1 px-6 text-[16px] font-bold'>Hire Me</button>
       </div>
     </div>
   );

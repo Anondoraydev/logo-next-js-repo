@@ -12,7 +12,10 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-       'BannerBg': "url('/banner.png')",
+        'BannerBg': "url('/banner.png')",
+      },
+      fontFamily: {
+        lato: [ "Lato", "serif"],
       },
     },
   },

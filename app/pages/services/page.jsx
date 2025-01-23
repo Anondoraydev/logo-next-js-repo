@@ -4,7 +4,7 @@ const page = () => {
     return (
         <div className='max-w-7xl mx-auto  '>
             <div className='text-center'>
-                <h3 className='text-[#FEFEFE] font-bold text-[40px] mt-10 '>Services</h3>
+                <h3 className='text-[#FEFEFE] font-bold text-[40px] mt-12'>Services</h3>
                 <p className='text-[#707070] text-xl font-medium  mb-[80px] mt-4'>Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam</p>
             </div>
             <div className='grid grid-cols-3 gap-8'>
