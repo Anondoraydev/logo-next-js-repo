@@ -11,8 +11,8 @@ const Header = () => {
     <>
       <li>
         <Link
-          href="/pages/home"
-          className={`${pathname === '/pages/home' ? '!text-[#FD6F00] font-semibold border-b-2 border-blue-500' : 'text-[#959595]'
+          href="/"
+          className={`${pathname === '/' ? '!text-[#FD6F00] font-semibold border-b-2 border-blue-500' : 'text-[#959595]'
             } hover:text-blue-500`}
         >
           Home
@@ -58,7 +58,7 @@ const Header = () => {
     <div className="navbar max-w-7xl mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="btn btn-ghost text-white lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
