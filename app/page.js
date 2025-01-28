@@ -13,8 +13,7 @@ export default function Home() {
       <AboutComponent />
       <DigainComponent />
       <PortfolioComponent />
-      <ContactComponent />
-
+      <ContactComponent /> 
     </>
   );
 }
