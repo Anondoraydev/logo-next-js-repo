@@ -5,7 +5,7 @@ export default function NotFound() {
     return (
         <>
             <div>
-                <Image src={Error} alt="404" className="w-[400px] mx-auto  " />
+                <Image src={Error} alt="404" className="w-[400px] mx-auto " />
             </div>
         </>
     );
